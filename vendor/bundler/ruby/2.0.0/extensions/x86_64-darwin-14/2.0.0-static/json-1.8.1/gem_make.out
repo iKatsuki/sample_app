@@ -1,0 +1,12 @@
+/Users/iKatsuki/.rbenv/versions/2.0.0-p598/bin/ruby -r ./siteconf20150112-18019-1mv7vxv.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling parser.c
+linking shared-object json/ext/parser.bundle
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 parser.bundle ./.gem.20150112-18019-osq3a2/json/ext
+installing default parser libraries
