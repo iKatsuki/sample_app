@@ -1,4 +1,4 @@
-/Users/iKatsuki/.rbenv/versions/2.0.0-p598/bin/ruby -r ./siteconf20141229-21001-vgay5v.rb extconf.rb 
+/Users/iKatsuki/.rbenv/versions/2.0.0-p598/bin/ruby -r ./siteconf20150115-43051-1q3trla.rb extconf.rb 
 checking if the C compiler accepts ... yes
 checking if the C compiler accepts -Wno-error=unused-command-line-argument-hard-error-in-future... no
 Building nokogiri using packaged libraries.
@@ -171,5 +171,5 @@ rmdir -p /Users/iKatsuki/ws/railstutorial/sample_app/vendor/bundle/ruby/2.0.0/ge
 rm -rf /Users/iKatsuki/ws/railstutorial/sample_app/vendor/bundle/ruby/2.0.0/gems/nokogiri-1.6.5/ports
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 nokogiri.bundle ./.gem.20141229-21001-8bz5ly/nokogiri
+/usr/bin/install -c -m 0755 nokogiri.bundle ./.gem.20150115-43051-c0ty6t/nokogiri
 installing default nokogiri libraries

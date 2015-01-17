@@ -1,19 +1,22 @@
 # -*- encoding: utf-8 -*-
+# stub: rails_12factor 0.0.2 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "rails_12factor"
   s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.require_paths = ["lib"]
   s.authors = ["Richard Schneeman", "Terence Lee"]
   s.date = "2013-06-18"
   s.description = "Run Rails the 12factor way"
   s.email = ["richard@heroku.com", "terence@heroku.com"]
   s.homepage = "https://github.com/heroku/rails_12factor"
   s.licenses = ["LICENSE"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = "2.0.14"
+  s.rubygems_version = "2.4.5"
   s.summary = "Following best practices from http://12factor.net run a maintainable, clean, and scalable app on Rails"
+
+  s.installed_by_version = "2.4.5" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

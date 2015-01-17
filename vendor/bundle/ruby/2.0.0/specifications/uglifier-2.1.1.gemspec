@@ -1,10 +1,12 @@
 # -*- encoding: utf-8 -*-
+# stub: uglifier 2.1.1 ruby lib
 
 Gem::Specification.new do |s|
   s.name = "uglifier"
   s.version = "2.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
+  s.require_paths = ["lib"]
   s.authors = ["Ville Lautanala"]
   s.date = "2013-05-18"
   s.email = "lautis@gmail.com"
@@ -12,9 +14,10 @@ Gem::Specification.new do |s|
   s.files = ["LICENSE.txt", "README.md"]
   s.homepage = "http://github.com/lautis/uglifier"
   s.licenses = ["MIT"]
-  s.require_paths = ["lib"]
-  s.rubygems_version = "2.0.14"
+  s.rubygems_version = "2.4.5"
   s.summary = "Ruby wrapper for UglifyJS JavaScript compressor"
+
+  s.installed_by_version = "2.4.5" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4
