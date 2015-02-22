@@ -17,9 +17,5 @@
 /log/*.log
 /tmp
 
-**/*~
-*~
-.secret
-
-# vim artifacts
-**.swp
+.*
+tags
