@@ -50,6 +50,20 @@ describe "User pages" do
     end
   end
 
+  describe "delete" do
+    describe "forbid deletting admin user" do
+      let(:admin) { FactoryGirl.create(:admin) }
+      before do
+        sign_in admin, no_capybara: true
+      end
+      it "should not be able to delete admin user" do
+        expect do
+          delete user_path(admin)
+        end.not_to change(User, :count)
+      end
+    end
+  end
+
   describe "profile page" do
     let(:user) { FactoryGirl.create(:user) }
     before { visit user_path(user) }
